@@ -1,0 +1,11 @@
+Package: anon-arm
+Version: 1.2.2.2
+Architecture: all
+Maintainer: chunkymilk0309
+Installed-Size: 64
+Depends: secure-delete, tor, i2p
+Recommends: gtkdialog, socat, gufw, proxychains, openvpn
+Suggests: vidalia
+Section: net
+Priority: optional
+Description: ParrotSec's anonsurf and pandora modules ported to armhf and arm64 architectures
