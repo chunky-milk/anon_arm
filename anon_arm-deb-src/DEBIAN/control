@@ -1,4 +1,4 @@
-Package: anon-arm
+Package: anondora-arm
 Version: 1.2.2.2
 Architecture: all
 Maintainer: chunkymilk0309
@@ -8,4 +8,4 @@ Recommends: gtkdialog, socat, gufw, proxychains, openvpn
 Suggests: vidalia
 Section: net
 Priority: optional
-Description: ParrotSec's anonsurf and pandora modules ported to armhf and arm64 architectures
+Description: ParrotSec's anonsurf and pandora modules ported to armhf and arm64 architectures.
