@@ -1,18 +1,25 @@
-# kali-anonstealth
+# anonsurf-arm
+## (and pandora)
+
 
 ParrotSec's anonsurf and stealth, ported to work with Kali Linux.
+
+## Installation
+This package comes with an installer that makes things extremely easy:
+
+```bash
+git clone https://github.com/chunky-milk/anonsurf-arm
+cd anonsurf-arm && sudo chmod +x installer.sh
+sudo ./installer.sh
+```
+
+Once the installer is complete, you will be able to use both the anonsurf and pandora modules.
 
 ## How to use this repo
 
 This repo contains the sources of both the anonsurf and pandora packages from ParrotSec combined into one.
 
-Modifications have been made to use the DNS servers of Private Internet Access (instead of FrozenDNS), and fixes for users who don't use the resolvconf application. I have removed some functionality such as the gui and iceweasel in ram.
-
-This repo can be compiled into a deb package to correctly install it on a Kali system.
-
-The easiest way to get this working is to just run the installer. See the installation section for further info.
-
-NOTE: This may work with any debian/ubuntu system, but this has only been tested to work on a kali-rolling amd64 system
+A modification has been made in which the DNS servers have been changed to PrivateInternetAccess DNS servers.
 
 ## Usage
 ### Pandora
@@ -24,7 +31,7 @@ pandora bomb
 NOTE: This will clear the entire system cache, including active SSH tunnels or sessions.
 
 ### anonsurf
-Anonsurf will anonymize the entire system under TOR using IPTables. It will also allow you to start and stop i2p as well.
+Anonsurf will anonymize the entire system under the tor network using IPTables. It will also allow you to start and stop i2p as well.
 
 NOTE: DO NOT run this as ```service anonsurf $COMMAND```. Run this as ```anonsurf $COMMAND```
 
@@ -44,11 +51,3 @@ Usage:
  stopi2p - Stop i2p services
 ```
 
-## Installation
-This package comes with an installer that makes things extremely easy:
-
-```bash
-./installer.sh
-```
-
-Once the installer is complete, you will be able to use both the anonsurf and pandora modules.
