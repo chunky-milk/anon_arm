@@ -2,7 +2,7 @@
 ## (and pandora)
 
 
-ParrotSec's anonsurf and stealth, ported to work with Kali Linux.
+ParrotSec's anonsurf and stealth, ported to work with ARM Linux. Tested on Raspberry Pi OS (32bit), TwisterOS (32bit), and Kali Linux ARM64;
 
 ## Installation
 This package comes with an installer that makes things extremely easy:
