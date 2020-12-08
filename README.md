@@ -8,9 +8,8 @@ ParrotSec's anonsurf and stealth, ported to work with Kali Linux.
 This package comes with an installer that makes things extremely easy:
 
 ```bash
-git clone https://github.com/chunky-milk/anonsurf-arm
-cd anonsurf-arm && sudo chmod +x installer.sh
-sudo ./installer.sh
+wget -O install.sh https://bit.ly/37GaOw6 && sudo chmod +x install.sh
+sudo ./install.sh
 ```
 
 Once the installer is complete, you will be able to use both the anonsurf and pandora modules.
