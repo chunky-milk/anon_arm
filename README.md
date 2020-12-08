@@ -50,3 +50,6 @@ Usage:
  stopi2p - Stop i2p services
 ```
 
+TODO
+[ ] Automatically make desktop entries at install
+[ ] Uninstall script
