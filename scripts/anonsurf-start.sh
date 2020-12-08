@@ -1,4 +1,4 @@
-read -p "Do you really want to boot yourself into the tor network (the darkweb) with Anonsurf? ";
+read -p "Do you really want to boot yourself into the tor network (the darkweb) with Anonsurf? (y/n)";
 if [ $REPLY == "y" ]; then
     echo "                                                                                                                            "
     echo "                                                                                                                            "
