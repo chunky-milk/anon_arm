@@ -34,9 +34,4 @@ apt-get install -y secure-delete tor i2p # install dependencies, just in case
 dpkg-deb -b anon_arm-deb-src/ anon-arm.deb # Build the deb package
 dpkg -i anon-arm.deb || (apt-get -f install && dpkg -i anon-arm.deb) # this will automatically install the required packages
 
-# Configure desktop links and commands
-cd scripts
-chmod +x anonsurf-start.sh && chmod +x anonsurf-stop.sh
-cd .. && cd desktop-entries
-
 exit 0
