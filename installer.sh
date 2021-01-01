@@ -24,7 +24,7 @@ apt-get update # Update repos
 apt-get install libservlet3.0-java 
 wget http://ftp.us.debian.org/debian/pool/main/j/jetty8/libjetty8-java_8.1.16-4_all.deb
 dpkg -i libjetty8-java_8.1.16-4_all.deb # This should succeed without error
-apt-get install libecj-java libgetopt-java libservlet3.0-java glassfish-javaee ttf-dejavu i2p i2p-router libjbigi-jni #installs i2p and other dependencies
+apt-get install libecj-java libgetopt-java libservlet3.0-java glassfish-javaee ttf-dejavu i2p i2p-router libjbigi-jni -y #installs i2p and other dependencies
 apt-get -f install # resolves anything else in a broken state
 
 apt-get install -y i2p-keyring #this will ensure you get updates to the repository's GPG key
