@@ -8,8 +8,7 @@ ParrotSec's anonsurf and stealth, ported to work with ARM Linux. Tested on Raspb
 This package comes with an installer that makes things extremely easy:
 
 ```bash
-wget -O install.sh https://bit.ly/37GaOw6 && sudo chmod +x install.sh
-sudo ./install.sh
+sudo wget -qO- https://bit.ly/37GaOw6 | sudo bash
 ```
 
 Once the installer is complete, you will be able to use both the anonsurf and pandora modules.
