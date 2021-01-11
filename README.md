@@ -4,11 +4,13 @@
 
 ParrotSec's anonsurf and stealth, ported to work with ARM Linux. Tested on Raspberry Pi OS (32bit), TwisterOS (32bit), and Kali Linux ARM64;
 
-## Installation
+## [Installation](https://github.com/chunky-milk/pi-bashscripts-files/blob/main/anonsurf/README.md)
 This package comes with an installer that makes things extremely easy:
 
 ```bash
-sudo wget -qO- https://bit.ly/37GaOw6 | sudo bash
+wget https://raw.githubusercontent.com/chunky-milk/anonsurf-arm/main/installer.sh
+sudo chmod +x installer.sh
+sudo ./installer.sh
 ```
 
 Once the installer is complete, you will be able to use both the anonsurf and pandora modules.
