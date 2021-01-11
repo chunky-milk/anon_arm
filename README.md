@@ -1,5 +1,6 @@
 # anonsurf-arm
-## (and pandora)
+
+**This project is in BETA. a GUI will be created for it eventually, as it is still in development.**
 
 
 ParrotSec's anonsurf and stealth, ported to work with ARM Linux. Tested on Raspberry Pi OS (32bit), TwisterOS (32bit), and Kali Linux ARM64;
