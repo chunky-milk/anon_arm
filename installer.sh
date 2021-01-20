@@ -7,7 +7,7 @@ if [ $(id -u) -ne 0 ]; then
 fi
 
 # Download code from repo
-git clone https://github.com/chunky-milk/anonsurf-arm && cd anonsurf-arm
+git clone https://github.com/chunky-milk/anonsurf-arm_beta anonsurf-arm && cd anonsurf-arm
 
 # For upgrades and sanity check, remove any existing i2p.list file
 rm -f /etc/apt/sources.list.d/i2p.list
