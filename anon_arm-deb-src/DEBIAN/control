@@ -8,4 +8,4 @@ Recommends: gtkdialog, socat, gufw, proxychains, openvpn
 Suggests: vidalia
 Section: net
 Priority: optional
-Description: ParrotSec's anonsurf and pandora modules ported to armhf and arm64 architectures.
+Description: ParrotSec's anonsurf and pandora modules ported to Raspberry Pi OS
