@@ -3,7 +3,7 @@
 **This project is in BETA. a GUI will be created for it eventually, as it is still in development.**
 
 
-ParrotSec's anonsurf and stealth, ported to work with ARM Linux. Tested on Raspberry Pi OS (32bit), TwisterOS (32bit), and Kali Linux ARM64;
+ParrotSec's anonsurf and stealth, ported to work with ARM Linux. Tested on Raspberry Pi OS (32bit) and TwisterOS (32bit) with a Raspberry Pi 4 (4gb RAM)
 
 ## [Installation](https://github.com/chunky-milk/pi-bashscripts-files/blob/main/anonsurf/README.md)
 This package comes with an installer that makes things extremely easy:
@@ -51,7 +51,3 @@ Usage:
  starti2p - Start i2p services
  stopi2p - Stop i2p services
 ```
-
-TODO
-[ ] Automatically make desktop entries at install
-[ ] Uninstall script
