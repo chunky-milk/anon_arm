@@ -14,7 +14,7 @@ rm -f /etc/apt/sources.list.d/i2p.list
 
 # Compile the i2p ppa
 apt-get update
-apt-get install lxterminal apt-transport-https git -y
+apt-get install lxterminal apt-transport-https git aria2c -y
 echo "deb http://deb.i2p2.no/ unstable main" > /etc/apt/sources.list.d/i2p.list # Default config reads repos from sources.list.d
 wget https://geti2p.net/_static/i2p-debian-repo.key.asc -O /tmp/i2p-debian-repo.key.asc # Get the latest i2p repo pubkey
 apt-key add /tmp/i2p-debian-repo.key.asc # Import the key
@@ -22,7 +22,7 @@ rm /tmp/i2p-debian-repo.key.asc # delete the temp key
 apt-get update # Update repos
 
 apt-get install libservlet3.0-java 
-wget http://ftp.us.debian.org/debian/pool/main/j/jetty8/libjetty8-java_8.1.16-4_all.deb
+aria2c -x16 http://ftp.us.debian.org/debian/pool/main/j/jetty8/libjetty8-java_8.1.16-4_all.deb
 dpkg -i libjetty8-java_8.1.16-4_all.deb # This should succeed without error
 apt-get install libecj-java libgetopt-java libservlet3.0-java glassfish-javaee ttf-dejavu i2p i2p-router libjbigi-jni -y #installs i2p and other dependencies
 apt-get -f install # resolves anything else in a broken state
