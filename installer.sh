@@ -14,7 +14,7 @@ rm -f /etc/apt/sources.list.d/i2p.list
 
 # Compile the i2p ppa
 apt-get update
-apt-get install lxterminal apt-transport-https git aria2c -y
+apt-get install lxterminal apt-transport-https git aria2 -y
 echo "deb http://deb.i2p2.no/ unstable main" > /etc/apt/sources.list.d/i2p.list # Default config reads repos from sources.list.d
 wget https://geti2p.net/_static/i2p-debian-repo.key.asc -O /tmp/i2p-debian-repo.key.asc # Get the latest i2p repo pubkey
 apt-key add /tmp/i2p-debian-repo.key.asc # Import the key
